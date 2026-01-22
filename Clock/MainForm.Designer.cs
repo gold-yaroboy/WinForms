@@ -165,14 +165,16 @@
 			// tsmiForegroundColor
 			// 
 			this.tsmiForegroundColor.Name = "tsmiForegroundColor";
-			this.tsmiForegroundColor.Size = new System.Drawing.Size(209, 26);
+			this.tsmiForegroundColor.Size = new System.Drawing.Size(224, 26);
 			this.tsmiForegroundColor.Text = "Foreground color";
+			this.tsmiForegroundColor.Click += new System.EventHandler(this.tsmiForegroundColor_Click);
 			// 
 			// tsmoBackgroundColor
 			// 
 			this.tsmoBackgroundColor.Name = "tsmoBackgroundColor";
-			this.tsmoBackgroundColor.Size = new System.Drawing.Size(209, 26);
+			this.tsmoBackgroundColor.Size = new System.Drawing.Size(224, 26);
 			this.tsmoBackgroundColor.Text = "Background color";
+			this.tsmoBackgroundColor.Click += new System.EventHandler(this.tsmoBackgroundColor_Click);
 			// 
 			// toolStripSeparator4
 			// 

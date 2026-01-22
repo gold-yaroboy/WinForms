@@ -50,7 +50,7 @@
 			this.labelExample.Font = new System.Drawing.Font("Microsoft Sans Serif", 19.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
 			this.labelExample.Location = new System.Drawing.Point(12, 43);
 			this.labelExample.Name = "labelExample";
-			this.labelExample.Size = new System.Drawing.Size(150, 39);
+			this.labelExample.Size = new System.Drawing.Size(144, 38);
 			this.labelExample.TabIndex = 1;
 			this.labelExample.Text = "Example";
 			// 
@@ -74,6 +74,7 @@
 			this.buttonCancel.TabIndex = 3;
 			this.buttonCancel.Text = "Cancel";
 			this.buttonCancel.UseVisualStyleBackColor = true;
+			this.buttonCancel.Click += new System.EventHandler(this.buttonCancel_Click);
 			// 
 			// FontDialog
 			// 
@@ -84,9 +85,12 @@
 			this.Controls.Add(this.buttonOK);
 			this.Controls.Add(this.labelExample);
 			this.Controls.Add(this.comboBoxFont);
+			this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedToolWindow;
 			this.Name = "FontDialog";
+			this.ShowInTaskbar = false;
 			this.StartPosition = System.Windows.Forms.FormStartPosition.Manual;
 			this.Text = "FontDialog";
+			this.TopMost = true;
 			this.Load += new System.EventHandler(this.FontDialog_Load);
 			this.ResumeLayout(false);
 			this.PerformLayout();

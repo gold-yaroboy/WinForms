@@ -100,6 +100,7 @@
 			this.clbWeekdays.Name = "clbWeekdays";
 			this.clbWeekdays.Size = new System.Drawing.Size(367, 79);
 			this.clbWeekdays.TabIndex = 4;
+			this.clbWeekdays.ItemCheck += new System.Windows.Forms.ItemCheckEventHandler(this.clbWeekdays_ItemCheck);
 			// 
 			// labelFileName
 			// 

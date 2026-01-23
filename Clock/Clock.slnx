@@ -1,3 +1,4 @@
 <Solution>
+  <Project Path="../ClockSetup/ClockSetup.vdproj" Type="Installer" />
   <Project Path="Clock.csproj" Id="265196bf-5972-42f1-8373-9dd3aca24d7b" />
 </Solution>

@@ -116,9 +116,9 @@ namespace Clock
 			if (cbShowWeekday.Checked) labelTime.Text += $"\n{DateTime.Now.DayOfWeek}";
 			if (
 				alarm != null
-				&&(
-					alarm.Date = DateTime.MaxValue ? 
-					alarm.Days.Contains((byte)DateTime.Now.DayOfWeek):
+				&& (
+					alarm.Date == DateTime.MaxValue ?
+					alarm.Days.Contains((byte)DateTime.Now.DayOfWeek) :
 					CompareDates(alarm.Date, DateTime.Now)
 				)
 				&& alarm.Time.Hours == DateTime.Now.Hour

@@ -22,6 +22,23 @@ namespace Clock
 			fileDialog.Filter = "All sound files (*.mp3;*.flac;*.flacc)|*.mp3;*.flac;*.flacc|mp3 files (*.mp3)|*.mp3|Flac files (*flac)|*.flac;*.flacc";
 			Alarm = new Alarm();
 		}
+		public AlarmDialog(Alarm alarm):this()
+		{
+			Alarm = alarm;
+			Extract();
+		}
+		void Extract()
+		{
+			if(Alarm.Date!=DateTime.MaxValue)
+			{
+				dtpDate.Value = Alarm.Date;
+				checkBoxUseDate.Checked = true;
+			}
+			dtpTime.Value = Alarm.Time;
+			//clbWeekdays.SelectedIndices =
+			Alarm.Days.Extract(clbWeekdays);
+			labelFileName.Text=Alarm.Filename;
+		}
 
 		private void checkBoxUseDate_CheckedChanged(object sender, EventArgs e)
 		{

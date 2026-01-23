@@ -22,8 +22,8 @@ namespace Clock
 
 		private void buttonAdd_Click(object sender, EventArgs e)
 		{
-			AlarmDialog alarmDialog = new AlarmDialog();
-			if (alarmDialog.ShowDialog() == DialogResult.OK)
+			AlarmDialog alarm = new AlarmDialog();
+			if (alarm.ShowDialog() == DialogResult.OK)
 			{
 				//Alarm alarm = new Alarm(alarmDialog.Alarm);
 				//if (alarm.Days == new Week(0)) 

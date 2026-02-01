@@ -21,26 +21,26 @@
         }
         "Entry"
         {
-        "MsmKey" = "8:_0B951831590429B63752DEF22B32DD91"
-        "OwnerKey" = "8:_F2D38E751B8A486594FD5F36E514DAC8"
-        "MsmSig" = "8:_UNDEFINED"
-        }
-        "Entry"
-        {
         "MsmKey" = "8:_0F3F4375C9B84751B2F80617C65309DD"
         "OwnerKey" = "8:_UNDEFINED"
         "MsmSig" = "8:_UNDEFINED"
         }
         "Entry"
         {
-        "MsmKey" = "8:_251DA0B5C8B249EA8081C33975EA21E5"
-        "OwnerKey" = "8:_UNDEFINED"
+        "MsmKey" = "8:_1C4A0C7BAD9A94ED9B428DCCADA81B53"
+        "OwnerKey" = "8:_71EEED6BC408BAD466D88E2AAC968829"
         "MsmSig" = "8:_UNDEFINED"
         }
         "Entry"
         {
-        "MsmKey" = "8:_302C7EE89980065248EF1EAE811EA4A6"
-        "OwnerKey" = "8:_CE9F8D6C3C73A3CBA62B164E51002C34"
+        "MsmKey" = "8:_1C4A0C7BAD9A94ED9B428DCCADA81B53"
+        "OwnerKey" = "8:_F2D38E751B8A486594FD5F36E514DAC8"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
+        "MsmKey" = "8:_251DA0B5C8B249EA8081C33975EA21E5"
+        "OwnerKey" = "8:_UNDEFINED"
         "MsmSig" = "8:_UNDEFINED"
         }
         "Entry"
@@ -69,20 +69,32 @@
         }
         "Entry"
         {
+        "MsmKey" = "8:_5305B4E045CA4B138B41D0D03BC100E1"
+        "OwnerKey" = "8:_UNDEFINED"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
+        "MsmKey" = "8:_71EEED6BC408BAD466D88E2AAC968829"
+        "OwnerKey" = "8:_F2D38E751B8A486594FD5F36E514DAC8"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
+        "MsmKey" = "8:_8FBED356D0964B1DB3C577DD5BE717CD"
+        "OwnerKey" = "8:_UNDEFINED"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
         "MsmKey" = "8:_9D9F7BFFF3EB4C9AA06945A132ACCAD8"
         "OwnerKey" = "8:_UNDEFINED"
         "MsmSig" = "8:_UNDEFINED"
         }
         "Entry"
         {
-        "MsmKey" = "8:_CE9F8D6C3C73A3CBA62B164E51002C34"
-        "OwnerKey" = "8:_0B951831590429B63752DEF22B32DD91"
-        "MsmSig" = "8:_UNDEFINED"
-        }
-        "Entry"
-        {
-        "MsmKey" = "8:_CE9F8D6C3C73A3CBA62B164E51002C34"
-        "OwnerKey" = "8:_F2D38E751B8A486594FD5F36E514DAC8"
+        "MsmKey" = "8:_B3E93813CA9C712730973A159A96F87A"
+        "OwnerKey" = "8:_1C4A0C7BAD9A94ED9B428DCCADA81B53"
         "MsmSig" = "8:_UNDEFINED"
         }
         "Entry"
@@ -100,7 +112,7 @@
         "Entry"
         {
         "MsmKey" = "8:_UNDEFINED"
-        "OwnerKey" = "8:_CE9F8D6C3C73A3CBA62B164E51002C34"
+        "OwnerKey" = "8:_1C4A0C7BAD9A94ED9B428DCCADA81B53"
         "MsmSig" = "8:_UNDEFINED"
         }
         "Entry"
@@ -112,7 +124,7 @@
         "Entry"
         {
         "MsmKey" = "8:_UNDEFINED"
-        "OwnerKey" = "8:_0B951831590429B63752DEF22B32DD91"
+        "OwnerKey" = "8:_71EEED6BC408BAD466D88E2AAC968829"
         "MsmSig" = "8:_UNDEFINED"
         }
     }
@@ -133,6 +145,22 @@
         "PrivateKeyFile" = "8:"
         "TimeStampServer" = "8:"
         "InstallerBootstrapper" = "3:2"
+            "BootstrapperCfg:{63ACBE69-63AA-4F98-B2B6-99F9E24495F2}"
+            {
+            "Enabled" = "11:TRUE"
+            "PromptEnabled" = "11:TRUE"
+            "PrerequisitesLocation" = "2:1"
+            "Url" = "8:"
+            "ComponentsUrl" = "8:"
+                "Items"
+                {
+                    "{EDC2488A-8267-493A-A98E-7D9C3B36CDF3}:.NETFramework,Version=v4.7.2"
+                    {
+                    "Name" = "8:Microsoft .NET Framework 4.7.2 (x86 and x64)"
+                    "ProductCode" = "8:.NETFramework,Version=v4.7.2"
+                    }
+                }
+            }
         }
         "Release"
         {
@@ -149,6 +177,14 @@
         "PrivateKeyFile" = "8:"
         "TimeStampServer" = "8:"
         "InstallerBootstrapper" = "3:2"
+            "BootstrapperCfg:{63ACBE69-63AA-4F98-B2B6-99F9E24495F2}"
+            {
+            "Enabled" = "11:TRUE"
+            "PromptEnabled" = "11:TRUE"
+            "PrerequisitesLocation" = "2:1"
+            "Url" = "8:"
+            "ComponentsUrl" = "8:"
+            }
         }
     }
     "Deployable"
@@ -198,37 +234,6 @@
             "IsDependency" = "11:FALSE"
             "IsolateTo" = "8:"
             }
-            "{9F6F8455-1EF1-4B85-886A-4223BCC8E7F7}:_0B951831590429B63752DEF22B32DD91"
-            {
-            "AssemblyRegister" = "3:1"
-            "AssemblyIsInGAC" = "11:FALSE"
-            "AssemblyAsmDisplayName" = "8:AxInterop.WMPLib, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL"
-                "ScatterAssemblies"
-                {
-                    "_0B951831590429B63752DEF22B32DD91"
-                    {
-                    "Name" = "8:AxInterop.WMPLib.dll"
-                    "Attributes" = "3:512"
-                    }
-                }
-            "SourcePath" = "8:AxInterop.WMPLib.dll"
-            "TargetName" = "8:"
-            "Tag" = "8:"
-            "Folder" = "8:_80830479FCFE46D99CF9A85B8A5A0E5A"
-            "Condition" = "8:"
-            "Transitive" = "11:FALSE"
-            "Vital" = "11:TRUE"
-            "ReadOnly" = "11:FALSE"
-            "Hidden" = "11:FALSE"
-            "System" = "11:FALSE"
-            "Permanent" = "11:FALSE"
-            "SharedLegacy" = "11:FALSE"
-            "PackageAs" = "3:1"
-            "Register" = "3:1"
-            "Exclude" = "11:FALSE"
-            "IsDependency" = "11:TRUE"
-            "IsolateTo" = "8:"
-            }
             "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_0F3F4375C9B84751B2F80617C65309DD"
             {
             "SourcePath" = "8:..\\Clock\\Fonts\\DIGITALDREAMFATSKEWNARROW.ttf"
@@ -249,6 +254,37 @@
             "IsDependency" = "11:FALSE"
             "IsolateTo" = "8:"
             }
+            "{9F6F8455-1EF1-4B85-886A-4223BCC8E7F7}:_1C4A0C7BAD9A94ED9B428DCCADA81B53"
+            {
+            "AssemblyRegister" = "3:1"
+            "AssemblyIsInGAC" = "11:FALSE"
+            "AssemblyAsmDisplayName" = "8:Interop.WMPLib, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL"
+                "ScatterAssemblies"
+                {
+                    "_1C4A0C7BAD9A94ED9B428DCCADA81B53"
+                    {
+                    "Name" = "8:Interop.WMPLib.dll"
+                    "Attributes" = "3:512"
+                    }
+                }
+            "SourcePath" = "8:Interop.WMPLib.dll"
+            "TargetName" = "8:"
+            "Tag" = "8:"
+            "Folder" = "8:_80830479FCFE46D99CF9A85B8A5A0E5A"
+            "Condition" = "8:"
+            "Transitive" = "11:FALSE"
+            "Vital" = "11:TRUE"
+            "ReadOnly" = "11:FALSE"
+            "Hidden" = "11:FALSE"
+            "System" = "11:FALSE"
+            "Permanent" = "11:FALSE"
+            "SharedLegacy" = "11:FALSE"
+            "PackageAs" = "3:1"
+            "Register" = "3:1"
+            "Exclude" = "11:FALSE"
+            "IsDependency" = "11:TRUE"
+            "IsolateTo" = "8:"
+            }
             "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_251DA0B5C8B249EA8081C33975EA21E5"
             {
             "SourcePath" = "8:..\\Clock\\Fonts\\DIGITALDREAMFATNARROW.ttf"
@@ -267,26 +303,6 @@
             "Register" = "3:1"
             "Exclude" = "11:FALSE"
             "IsDependency" = "11:FALSE"
-            "IsolateTo" = "8:"
-            }
-            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_302C7EE89980065248EF1EAE811EA4A6"
-            {
-            "SourcePath" = "8:wmp.dll"
-            "TargetName" = "8:wmp.dll"
-            "Tag" = "8:"
-            "Folder" = "8:_80830479FCFE46D99CF9A85B8A5A0E5A"
-            "Condition" = "8:"
-            "Transitive" = "11:FALSE"
-            "Vital" = "11:TRUE"
-            "ReadOnly" = "11:FALSE"
-            "Hidden" = "11:FALSE"
-            "System" = "11:FALSE"
-            "Permanent" = "11:FALSE"
-            "SharedLegacy" = "11:FALSE"
-            "PackageAs" = "3:1"
-            "Register" = "3:1"
-            "Exclude" = "11:FALSE"
-            "IsDependency" = "11:TRUE"
             "IsolateTo" = "8:"
             }
             "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_351EE4AAEE214240A16F5171819754A0"
@@ -369,6 +385,77 @@
             "IsDependency" = "11:FALSE"
             "IsolateTo" = "8:"
             }
+            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_5305B4E045CA4B138B41D0D03BC100E1"
+            {
+            "SourcePath" = "8:..\\Clock\\ico\\clock_35143.ico"
+            "TargetName" = "8:clock_35143.ico"
+            "Tag" = "8:"
+            "Folder" = "8:_80830479FCFE46D99CF9A85B8A5A0E5A"
+            "Condition" = "8:"
+            "Transitive" = "11:FALSE"
+            "Vital" = "11:TRUE"
+            "ReadOnly" = "11:FALSE"
+            "Hidden" = "11:FALSE"
+            "System" = "11:FALSE"
+            "Permanent" = "11:FALSE"
+            "SharedLegacy" = "11:FALSE"
+            "PackageAs" = "3:1"
+            "Register" = "3:1"
+            "Exclude" = "11:FALSE"
+            "IsDependency" = "11:FALSE"
+            "IsolateTo" = "8:"
+            }
+            "{9F6F8455-1EF1-4B85-886A-4223BCC8E7F7}:_71EEED6BC408BAD466D88E2AAC968829"
+            {
+            "AssemblyRegister" = "3:1"
+            "AssemblyIsInGAC" = "11:FALSE"
+            "AssemblyAsmDisplayName" = "8:AxInterop.WMPLib, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL"
+                "ScatterAssemblies"
+                {
+                    "_71EEED6BC408BAD466D88E2AAC968829"
+                    {
+                    "Name" = "8:AxInterop.WMPLib.dll"
+                    "Attributes" = "3:512"
+                    }
+                }
+            "SourcePath" = "8:AxInterop.WMPLib.dll"
+            "TargetName" = "8:"
+            "Tag" = "8:"
+            "Folder" = "8:_80830479FCFE46D99CF9A85B8A5A0E5A"
+            "Condition" = "8:"
+            "Transitive" = "11:FALSE"
+            "Vital" = "11:TRUE"
+            "ReadOnly" = "11:FALSE"
+            "Hidden" = "11:FALSE"
+            "System" = "11:FALSE"
+            "Permanent" = "11:FALSE"
+            "SharedLegacy" = "11:FALSE"
+            "PackageAs" = "3:1"
+            "Register" = "3:1"
+            "Exclude" = "11:FALSE"
+            "IsDependency" = "11:TRUE"
+            "IsolateTo" = "8:"
+            }
+            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_8FBED356D0964B1DB3C577DD5BE717CD"
+            {
+            "SourcePath" = "8:..\\Autorunner\\bin\\Debug\\net10.0\\Autorunner.exe"
+            "TargetName" = "8:Autorunner.exe"
+            "Tag" = "8:"
+            "Folder" = "8:_80830479FCFE46D99CF9A85B8A5A0E5A"
+            "Condition" = "8:"
+            "Transitive" = "11:FALSE"
+            "Vital" = "11:TRUE"
+            "ReadOnly" = "11:FALSE"
+            "Hidden" = "11:FALSE"
+            "System" = "11:FALSE"
+            "Permanent" = "11:FALSE"
+            "SharedLegacy" = "11:FALSE"
+            "PackageAs" = "3:1"
+            "Register" = "3:1"
+            "Exclude" = "11:FALSE"
+            "IsDependency" = "11:FALSE"
+            "IsolateTo" = "8:"
+            }
             "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_9D9F7BFFF3EB4C9AA06945A132ACCAD8"
             {
             "SourcePath" = "8:..\\Clock\\Settings.ini"
@@ -389,21 +476,10 @@
             "IsDependency" = "11:FALSE"
             "IsolateTo" = "8:"
             }
-            "{9F6F8455-1EF1-4B85-886A-4223BCC8E7F7}:_CE9F8D6C3C73A3CBA62B164E51002C34"
+            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_B3E93813CA9C712730973A159A96F87A"
             {
-            "AssemblyRegister" = "3:1"
-            "AssemblyIsInGAC" = "11:FALSE"
-            "AssemblyAsmDisplayName" = "8:Interop.WMPLib, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL"
-                "ScatterAssemblies"
-                {
-                    "_CE9F8D6C3C73A3CBA62B164E51002C34"
-                    {
-                    "Name" = "8:Interop.WMPLib.dll"
-                    "Attributes" = "3:512"
-                    }
-                }
-            "SourcePath" = "8:Interop.WMPLib.dll"
-            "TargetName" = "8:"
+            "SourcePath" = "8:wmp.dll"
+            "TargetName" = "8:wmp.dll"
             "Tag" = "8:"
             "Folder" = "8:_80830479FCFE46D99CF9A85B8A5A0E5A"
             "Condition" = "8:"
@@ -561,7 +637,7 @@
         "Name" = "8:Microsoft Visual Studio"
         "ProductName" = "8:ClockPV_521"
         "ProductCode" = "8:{D3C4EC24-1D86-472D-977E-D5E865024067}"
-        "PackageCode" = "8:{A9A5BA65-C384-4984-8BB8-47C2CA436D44}"
+        "PackageCode" = "8:{C04B5D6E-A243-450B-8591-88C3A5CC3FB1}"
         "UpgradeCode" = "8:{EBE5D5E5-5665-47D6-954A-B8F8774E4194}"
         "AspNetVersion" = "8:"
         "RestartWWWService" = "11:FALSE"
@@ -692,7 +768,7 @@
             "Target" = "8:_F2D38E751B8A486594FD5F36E514DAC8"
             "Folder" = "8:_2C6FF6C3BA024590A59251550C1631BD"
             "WorkingFolder" = "8:_80830479FCFE46D99CF9A85B8A5A0E5A"
-            "Icon" = "8:"
+            "Icon" = "8:_5305B4E045CA4B138B41D0D03BC100E1"
             "Feature" = "8:"
             }
             "{970C0BB2-C7D0-45D7-ABFA-7EC378858BC0}:_35171A6383AB4400B9579698D40A9EF4"
@@ -706,7 +782,7 @@
             "Target" = "8:_F2D38E751B8A486594FD5F36E514DAC8"
             "Folder" = "8:_A960ADC00CB64FD4AD3953978360C1BC"
             "WorkingFolder" = "8:_80830479FCFE46D99CF9A85B8A5A0E5A"
-            "Icon" = "8:"
+            "Icon" = "8:_5305B4E045CA4B138B41D0D03BC100E1"
             "Feature" = "8:"
             }
         }

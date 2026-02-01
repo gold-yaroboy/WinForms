@@ -1,4 +1,7 @@
 <Solution>
-  <Project Path="../ClockSetup/ClockSetup.vdproj" Type="Installer" />
+  <Project Path="../Autorunner/Autorunner.csproj" Id="fb79c86f-b4c3-418f-be0e-45be128c371a" />
+  <Project Path="../ClockSetup/ClockSetup.vdproj" Type="Installer">
+    <Build />
+  </Project>
   <Project Path="Clock.csproj" Id="265196bf-5972-42f1-8373-9dd3aca24d7b" />
 </Solution>
